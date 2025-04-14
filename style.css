@@ -33,7 +33,6 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     font-size: 8vmin;
-    color: #c82e8a; 
     background-color: #e2a8c2;  
 }
 
@@ -64,7 +63,12 @@ body{
 }
 
 .msg-container{
-  height: 30vmin;
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .hide {
